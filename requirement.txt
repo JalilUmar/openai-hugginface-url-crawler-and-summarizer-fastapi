@@ -1,0 +1,15 @@
+uvicorn 
+fastapi
+langchain
+langchain-openai
+youtube-transcript-api
+requests
+huggingface_hub
+transformers
+torch
+python-magic
+pytube
+openai
+pydantic
+python-dotenv
+unstructured
