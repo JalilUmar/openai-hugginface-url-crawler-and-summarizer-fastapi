@@ -52,6 +52,7 @@ async def summarize_url_content(url: str, summary_type: str):
             chain = load_summarize_chain(llm=client, prompt=prompt, chain_type="stuff")
             res = chain.invoke(data)
             summary = res["output_text"] or res
+
         elif selected_model["name"] == "bart-large-text-summarizer":
 
             tokenizer = AutoTokenizer.from_pretrained(
